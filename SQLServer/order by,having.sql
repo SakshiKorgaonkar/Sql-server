@@ -1,0 +1,1 @@
+select count(FirstName) NoOfPeople,LastName from ContactTable group by LastName having LastName like 'g%' order by LastName;

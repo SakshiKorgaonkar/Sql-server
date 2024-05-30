@@ -1,0 +1,1 @@
+select count(FirstName) NoOfPeople,Phone from ContactTable group by Phone;
